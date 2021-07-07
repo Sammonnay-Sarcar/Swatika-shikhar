@@ -8,12 +8,13 @@ h1
 {
     font-family: 'Encode Sans SC', sans-serif;
     font-size: 1rem;
+    font-weight: bold;
 }
 h4
 {
     font-family: 'Encode Sans SC', sans-serif;
     font-size: 1.20rem;
-    font-weight: bold;
+    font-weight: bolder;
 }
 li
 {
@@ -25,8 +26,8 @@ li
 p
 {
     font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
-    font-size: small;
+    font-weight: bolder;
+    font-size: medium;
     line-height: 25px;
 }
 .navBar
@@ -47,7 +48,8 @@ p
     border-radius: 15px;
     width:97vw;
     margin: 5px 2px;
-    border: 5px solid #FFDADA;
+    padding-right: 3px;
+    
 }
 
 
@@ -70,6 +72,11 @@ p
 .ul
 {
     padding-inline-start: 0 !important;
+}
+.content ul 
+{
+    overflow-y: auto;
+    height: 7rem;
 }
 @media (min-width:641px) 
 {
